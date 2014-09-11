@@ -1,0 +1,16 @@
+/******************************************************************
+Theme Name: Glossary Chart
+Theme URI: http://pixeline.be
+Description: Visualizes the posts in your wordpress site as an interactive network chart (thx sigmajs.org). 
+Author: Alexandre Plennevaux
+Version: 1.0
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+Are You Serious? Yes.
+*/
+
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */

@@ -1,0 +1,1589 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: TinyMCE Editor
+
+This stylesheet is loaded automatically by Wordpress when compiled
+and placed in the root theme directory folder as editor-style.css
+
+For more info, check out the codex:
+http://codex.wordpress.org/Editor_Style
+
+******************************************************************/
+/* Wrap the entire post style inside the TinyMCE selector, as suggested
+here http://codex.wordpress.org/Function_Reference/add_editor_style */
+body#tinymce.wp-editor {
+  /*!
+  Pure v0.5.0
+  Copyright 2014 Yahoo! Inc. All rights reserved.
+  Licensed under the BSD License.
+  https://github.com/yui/pure/blob/master/LICENSE.md
+  */
+  /*!
+  normalize.css v1.1.3 | MIT License | git.io/normalize
+  Copyright (c) Nicolas Gallagher and Jonathan Neal
+  */
+  /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+  /* ==========================================================================
+     HTML5 display definitions
+     ========================================================================== */
+  /**
+   * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+   */
+  /**
+   * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+   */
+  /**
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
+  /**
+   * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+   * Known issue: no IE 6 support.
+   */
+  /* ==========================================================================
+     Base
+     ========================================================================== */
+  /**
+   * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+   *    `em` units.
+   * 2. Prevent iOS text size adjust after orientation change, without disabling
+   *    user zoom.
+   */
+  /**
+   * Address `font-family` inconsistency between `textarea` and other form
+   * elements.
+   */
+  /**
+   * Address margins handled incorrectly in IE 6/7.
+   */
+  /* ==========================================================================
+     Links
+     ========================================================================== */
+  /**
+   * Address `outline` inconsistency between Chrome and other browsers.
+   */
+  /**
+   * Improve readability when focused and also mouse hovered in all browsers.
+   */
+  /* ==========================================================================
+     Typography
+     ========================================================================== */
+  /**
+   * Address font sizes and margins set differently in IE 6/7.
+   * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+   * and Chrome.
+   */
+  /**
+   * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+   */
+  /**
+   * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+   */
+  /**
+   * Address styling not present in Safari 5 and Chrome.
+   */
+  /**
+   * Address differences between Firefox and other browsers.
+   * Known issue: no IE 6/7 normalization.
+   */
+  /**
+   * Address styling not present in IE 6/7/8/9.
+   */
+  /**
+   * Address margins set differently in IE 6/7.
+   */
+  /**
+   * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+   */
+  /**
+   * Improve readability of pre-formatted text in all browsers.
+   */
+  /**
+   * Address CSS quotes not supported in IE 6/7.
+   */
+  /**
+   * Address `quotes` property not supported in Safari 4.
+   */
+  /**
+   * Address inconsistent and variable font size in all browsers.
+   */
+  /**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+  /* ==========================================================================
+     Lists
+     ========================================================================== */
+  /**
+   * Address margins set differently in IE 6/7.
+   */
+  /**
+   * Address paddings set differently in IE 6/7.
+   */
+  /**
+   * Correct list images handled incorrectly in IE 7.
+   */
+  /* ==========================================================================
+     Embedded content
+     ========================================================================== */
+  /**
+   * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+   * 2. Improve image quality when scaled in IE 7.
+   */
+  /**
+   * Correct overflow displayed oddly in IE 9.
+   */
+  /* ==========================================================================
+     Figures
+     ========================================================================== */
+  /**
+   * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+   */
+  /* ==========================================================================
+     Forms
+     ========================================================================== */
+  /**
+   * Correct margin displayed oddly in IE 6/7.
+   */
+  /**
+   * Define consistent border, margin, and padding.
+   */
+  /**
+   * 1. Correct color not being inherited in IE 6/7/8/9.
+   * 2. Correct text not wrapping in Firefox 3.
+   * 3. Correct alignment displayed oddly in IE 6/7.
+   */
+  /**
+   * 1. Correct font size not being inherited in all browsers.
+   * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+   *    and Chrome.
+   * 3. Improve appearance and consistency in all browsers.
+   */
+  /**
+   * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+   * the UA stylesheet.
+   */
+  /**
+   * Address inconsistent `text-transform` inheritance for `button` and `select`.
+   * All other form control elements do not inherit `text-transform` values.
+   * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+   * Correct `select` style inheritance in Firefox 4+ and Opera.
+   */
+  /**
+   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+   *    and `video` controls.
+   * 2. Correct inability to style clickable `input` types in iOS.
+   * 3. Improve usability and consistency of cursor style between image-type
+   *    `input` and others.
+   * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+   *    Known issue: inner spacing remains in IE 6.
+   */
+  /**
+   * Re-set default cursor for disabled elements.
+   */
+  /**
+   * 1. Address box sizing set to content-box in IE 8/9.
+   * 2. Remove excess padding in IE 8/9.
+   * 3. Remove excess padding in IE 7.
+   *    Known issue: excess padding remains in IE 6.
+   */
+  /**
+   * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+   * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+   *    (include `-moz` to future-proof).
+   */
+  /**
+   * Remove inner padding and search cancel button in Safari 5 and Chrome
+   * on OS X.
+   */
+  /**
+   * Remove inner padding and border in Firefox 3+.
+   */
+  /**
+   * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+   * 2. Improve readability and alignment in all browsers.
+   */
+  /* ==========================================================================
+     Tables
+     ========================================================================== */
+  /**
+   * Remove most spacing between table cells.
+   */
+  /*csslint important:false*/
+  /* ==========================================================================
+     Pure Base Extras
+     ========================================================================== */
+  /**
+   * Extra rules that Pure adds on top of Normalize.css
+   */
+  /**
+   * Always hide an element when it has the `hidden` HTML attribute.
+   */
+  /**
+   * Add this class to an image to make it fit within it's fluid parent wrapper while maintaining
+   * aspect ratio.
+   */
+  /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
+  /* Opera as of 12 on Windows needs word-spacing.
+     The ".opera-only" selector is used to prevent actual prefocus styling
+     and is not required in markup.
+  */
+  /*
+  Resets the font family back to the OS/browser's default sans-serif font,
+  this the same font stack that Normalize.css sets for the `body`.
+  */
+  /* Firefox: Get rid of the inner focus border */
+  /*csslint outline-none:false*/
+  /* Firefox: Get rid of the inner focus border */
+  /*
+  Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+  since IE8 won't execute CSS that contains a CSS3 selector.
+  */
+  /* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
+  /* May be able to remove this tweak as color inputs become more standardized across browsers. */
+  /*
+  Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+  since IE8 won't execute CSS that contains a CSS3 selector.
+  */
+  /*
+  Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+  since IE8 won't execute CSS that contains a CSS3 selector.
+  */
+  /*
+  Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+  since IE8 won't execute CSS that contains a CSS3 selector.
+  */
+  /* Aligned Forms */
+  /* Rounded Inputs */
+  /* Grouped Inputs */
+  /* Inline help for forms */
+  /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+  /* Block help for forms */
+  /*csslint adjoining-classes:false, outline-none:false*/
+  /*TODO: Remove this lint rule override after a refactor of this code.*/
+  /* FIXED MENU */
+  /* HORIZONTAL MENU CODE */
+  /* Initial menus should be inline-block so that they are horizontal */
+  /* Submenus should still be display: block; */
+  /* Content after should be down arrow */
+  /*Add extra padding to elements that have the arrow so that the hover looks nice */
+  /* Adjusting separator for vertical menus */
+  /* Submenus should be horizontal separator again */
+  /*csslint adjoining-classes:false*/
+  /*TODO: Remove this lint rule override after a refactor of this code.*/
+  /* MAIN MENU STYLING */
+  /* remove borders for horizontal menus */
+  /* LINK STYLES */
+  /* Focus style for a dropdown menu-item when the parent has been opened */
+  /* DISABLED STATES */
+  /* HEADINGS */
+  /* ACTIVE MENU ITEM */
+  /* FIXED MENU */
+  /*csslint box-model:false*/
+  /*TODO: Remove this lint rule override after a refactor of this code.*/
+  /* `pure-u` Grid styles */
+  /*
+  striping:
+     even - #fff (white)
+     odd  - #f2f2f2 (light gray)
+  */
+  /* nth-child selector for modern browsers */
+  /* BORDERED TABLES */
+  /* HORIZONTAL BORDERED TABLES */
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Variables
+  
+  Here is where we declare all our variables like colors, fonts,
+  base values, and defaults. We want to make sure this file ONLY
+  contains variables that way our files don't get all messy.
+  No one likes a mess.
+  
+  ******************************************************************/
+  /*********************
+  COLORS
+  Need help w/ choosing your colors? Try this site out:
+  http://0to255.com/
+  *********************/
+  /*
+  Here's a great tutorial on how to
+  use color variables properly:
+  http://sachagreif.com/sass-color-variables/
+  */
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Typography
+  
+  Need to import a font or set of icons for your site? Drop them in
+  here or just use this to establish your typographical grid. Or not.
+  Do whatever you want to...GOSH!
+  
+  Helpful Articles:
+  http://trentwalton.com/2012/06/19/fluid-type/
+  http://ia.net/blog/responsive-typography-the-basics/
+  http://alistapart.com/column/responsive-typography-is-a-physical-discipline
+  
+  ******************************************************************/
+  /*********************
+  FONT FACE (IN YOUR FACE)
+  *********************/
+  /*  To embed your own fonts, use this syntax
+    and place your fonts inside the
+    library/fonts folder. For more information
+    on embedding fonts, go to:
+    http://www.fontsquirrel.com/
+    Be sure to remove the comment brackets.
+  */
+  /*  @font-face {
+        font-family: 'Font Name';
+        src: url('library/fonts/font-name.eot');
+        src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+               url('library/fonts/font-name.woff') format('woff'),
+               url('library/fonts/font-name.ttf') format('truetype'),
+               url('library/fonts/font-name.svg#font-name') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+  */
+  /*
+  The following is based of Typebase:
+  https://github.com/devinhunt/typebase.css
+  I've edited it a bit, but it's a nice starting point.
+  */
+  /*
+   i imported this one in the functions file so bones would look sweet.
+   don't forget to remove it for your site.
+  */
+  /*
+  some nice typographical defaults
+  more here: http://www.newnet-soft.com/blog/csstypography
+  */
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Sass Functions
+  
+  You can do a lot of really cool things in Sass. Functions help you
+  make repeated actions a lot easier. They are really similar to mixins,
+  but can be used for so much more.
+  
+  Anyway, keep them all in here so it's easier to find when you're
+  looking for one.
+  
+  For more info on functions, go here:
+  http://sass-lang.com/documentation/Sass/Script/Functions.html
+  
+  ******************************************************************/
+  /*********************
+  COLOR FUNCTIONS
+  These are helpful when you're working
+  with shadows and such things. It's essentially
+  a quicker way to write RGBA.
+  
+  Example:
+  box-shadow: 0 0 4px black(0.3);
+  compiles to:
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  *********************/
+  /*********************
+  RESPONSIVE HELPER FUNCTION
+  If you're creating a responsive site, then
+  you've probably already read
+  Responsive Web Design: http://www.abookapart.com/products/responsive-web-design
+  
+  Here's a nice little helper function for calculating
+  target / context
+  as mentioned in that book.
+  
+  Example:
+  width: cp(650px, 1000px);
+  or
+  width: calc-percent(650px, 1000px);
+  both compile to:
+  width: 65%;
+  *********************/
+  /******************************************************************
+  Site Name:
+  Author:
+  
+  Stylesheet: Mixins Stylesheet
+  
+  This is where you can take advantage of Sass' great features: Mixins.
+  I won't go in-depth on how they work exactly,
+  there are a few articles below that will help do that. What I will
+  tell you is that this will help speed up simple changes like
+  changing a color or adding CSS3 techniques gradients.
+  
+  A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+  remember less is more.
+  
+  Helpful:
+  http://sachagreif.com/useful-sass-mixins/
+  http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+  http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
+  
+  ******************************************************************/
+  /*********************
+  TRANSITION
+  *********************/
+  /*
+  I totally rewrote this to be cleaner and easier to use.
+  You'll need to be using Sass 3.2+ for these to work.
+  Thanks to @anthonyshort for the inspiration on these.
+  USAGE: @include transition(all 0.2s ease-in-out);
+  */
+  /*********************
+  CSS3 GRADIENTS
+  Be careful with these since they can
+  really slow down your CSS. Don't overdo it.
+  *********************/
+  /* @include css-gradient(#dfdfdf,#f8f8f8); */
+  /*********************
+  BOX SIZING
+  *********************/
+  /* @include box-sizing(border-box); */
+  /* NOTE: value of "padding-box" is only supported in Gecko. So
+  probably best not to use it. I mean, were you going to anyway? */
+  width: 731px;
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  /*********************
+	LINK STYLES
+	*********************/
+  /******************************************************************
+  H1, H2, H3, H4, H5 STYLES
+  ******************************************************************/
+  padding: 1.5em 1.5em 0;
+  /*********************
+  LARGER MOBILE DEVICES
+  This is for devices like the Galaxy Note or something that's
+  larger than an iPhone but smaller than a tablet. Let's call them
+  tweeners.
+  *********************/ }
+  body#tinymce.wp-editor article,
+  body#tinymce.wp-editor aside,
+  body#tinymce.wp-editor details,
+  body#tinymce.wp-editor figcaption,
+  body#tinymce.wp-editor figure,
+  body#tinymce.wp-editor footer,
+  body#tinymce.wp-editor header,
+  body#tinymce.wp-editor hgroup,
+  body#tinymce.wp-editor main,
+  body#tinymce.wp-editor nav,
+  body#tinymce.wp-editor section,
+  body#tinymce.wp-editor summary {
+    display: block; }
+  body#tinymce.wp-editor audio,
+  body#tinymce.wp-editor canvas,
+  body#tinymce.wp-editor video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+  body#tinymce.wp-editor audio:not([controls]) {
+    display: none;
+    height: 0; }
+  body#tinymce.wp-editor [hidden] {
+    display: none; }
+  body#tinymce.wp-editor html {
+    font-size: 100%;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
+  body#tinymce.wp-editor html,
+  body#tinymce.wp-editor button,
+  body#tinymce.wp-editor input,
+  body#tinymce.wp-editor select,
+  body#tinymce.wp-editor textarea {
+    font-family: sans-serif; }
+  body#tinymce.wp-editor body {
+    margin: 0; }
+  body#tinymce.wp-editor a:focus {
+    outline: thin dotted; }
+  body#tinymce.wp-editor a:active,
+  body#tinymce.wp-editor a:hover {
+    outline: 0; }
+  body#tinymce.wp-editor h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+  body#tinymce.wp-editor h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0; }
+  body#tinymce.wp-editor h3 {
+    font-size: 1.17em;
+    margin: 1em 0; }
+  body#tinymce.wp-editor h4 {
+    font-size: 1em;
+    margin: 1.33em 0; }
+  body#tinymce.wp-editor h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0; }
+  body#tinymce.wp-editor h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0; }
+  body#tinymce.wp-editor abbr[title] {
+    border-bottom: 1px dotted; }
+  body#tinymce.wp-editor b,
+  body#tinymce.wp-editor strong {
+    font-weight: bold; }
+  body#tinymce.wp-editor blockquote {
+    margin: 1em 40px; }
+  body#tinymce.wp-editor dfn {
+    font-style: italic; }
+  body#tinymce.wp-editor hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0; }
+  body#tinymce.wp-editor mark {
+    background: #ff0;
+    color: #000; }
+  body#tinymce.wp-editor p,
+  body#tinymce.wp-editor pre {
+    margin: 1em 0; }
+  body#tinymce.wp-editor code,
+  body#tinymce.wp-editor kbd,
+  body#tinymce.wp-editor pre,
+  body#tinymce.wp-editor samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em; }
+  body#tinymce.wp-editor pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+  body#tinymce.wp-editor q {
+    quotes: none; }
+  body#tinymce.wp-editor q:before,
+  body#tinymce.wp-editor q:after {
+    content: '';
+    content: none; }
+  body#tinymce.wp-editor small {
+    font-size: 80%; }
+  body#tinymce.wp-editor sub,
+  body#tinymce.wp-editor sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  body#tinymce.wp-editor sup {
+    top: -0.5em; }
+  body#tinymce.wp-editor sub {
+    bottom: -0.25em; }
+  body#tinymce.wp-editor dl,
+  body#tinymce.wp-editor menu,
+  body#tinymce.wp-editor ol,
+  body#tinymce.wp-editor ul {
+    margin: 1em 0; }
+  body#tinymce.wp-editor dd {
+    margin: 0 0 0 40px; }
+  body#tinymce.wp-editor menu,
+  body#tinymce.wp-editor ol,
+  body#tinymce.wp-editor ul {
+    padding: 0 0 0 40px; }
+  body#tinymce.wp-editor nav ul,
+  body#tinymce.wp-editor nav ol {
+    list-style: none;
+    list-style-image: none; }
+  body#tinymce.wp-editor img {
+    border: 0;
+    /* 1 */
+    -ms-interpolation-mode: bicubic;
+    /* 2 */ }
+  body#tinymce.wp-editor svg:not(:root) {
+    overflow: hidden; }
+  body#tinymce.wp-editor figure {
+    margin: 0; }
+  body#tinymce.wp-editor form {
+    margin: 0; }
+  body#tinymce.wp-editor fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em; }
+  body#tinymce.wp-editor legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    white-space: normal;
+    /* 2 */
+    *margin-left: -7px;
+    /* 3 */ }
+  body#tinymce.wp-editor button,
+  body#tinymce.wp-editor input,
+  body#tinymce.wp-editor select,
+  body#tinymce.wp-editor textarea {
+    font-size: 100%;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    vertical-align: baseline;
+    /* 3 */
+    *vertical-align: middle;
+    /* 3 */ }
+  body#tinymce.wp-editor button,
+  body#tinymce.wp-editor input {
+    line-height: normal; }
+  body#tinymce.wp-editor button,
+  body#tinymce.wp-editor select {
+    text-transform: none; }
+  body#tinymce.wp-editor button,
+  body#tinymce.wp-editor html input[type="button"],
+  body#tinymce.wp-editor input[type="reset"],
+  body#tinymce.wp-editor input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+    *overflow: visible;
+    /* 4 */ }
+  body#tinymce.wp-editor button[disabled],
+  body#tinymce.wp-editor html input[disabled] {
+    cursor: default; }
+  body#tinymce.wp-editor input[type="checkbox"],
+  body#tinymce.wp-editor input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+    *height: 13px;
+    /* 3 */
+    *width: 13px;
+    /* 3 */ }
+  body#tinymce.wp-editor input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    /* 2 */
+    box-sizing: content-box; }
+  body#tinymce.wp-editor input[type="search"]::-webkit-search-cancel-button,
+  body#tinymce.wp-editor input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  body#tinymce.wp-editor button::-moz-focus-inner,
+  body#tinymce.wp-editor input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  body#tinymce.wp-editor textarea {
+    overflow: auto;
+    /* 1 */
+    vertical-align: top;
+    /* 2 */ }
+  body#tinymce.wp-editor table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  body#tinymce.wp-editor [hidden] {
+    display: none !important; }
+  body#tinymce.wp-editor .pure-img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  body#tinymce.wp-editor .pure-g {
+    letter-spacing: -0.31em;
+    /* Webkit: collapse white-space between units */
+    *letter-spacing: normal;
+    /* reset IE < 8 */
+    *word-spacing: -0.43em;
+    /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed;
+    /* Webkit: fixes text-rendering: optimizeLegibility */
+    /*
+    Sets the font stack to fonts known to work properly with the above letter
+    and word spacings. See: https://github.com/yui/pure/issues/41/
+
+    The following font stack makes Pure Grids work on all known environments.
+
+    * FreeSans: Ships with many Linux distros, including Ubuntu
+
+    * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
+      Arial to get picked up by the browser, even though neither is available
+      in Chrome OS.
+
+    * Droid Sans: Ships with all versions of Android.
+
+    * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.
+    */
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    /*
+    Use flexbox when possible to avoid `letter-spacing` side-effects.
+
+    NOTE: Firefox (as of 25) does not currently support flex-wrap, so the
+    `-moz-` prefix version is omitted.
+    */
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    /* IE10 uses display: flexbox */
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap; }
+  body#tinymce.wp-editor .opera-only :-o-prefocus,
+  body#tinymce.wp-editor .pure-g {
+    word-spacing: -0.43em; }
+  body#tinymce.wp-editor .pure-u {
+    display: inline-block;
+    *display: inline;
+    /* IE < 8: fake inline-block */
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto; }
+  body#tinymce.wp-editor .pure-g [class*="pure-u"] {
+    font-family: sans-serif; }
+  body#tinymce.wp-editor .pure-u-1,
+  body#tinymce.wp-editor .pure-u-1-1,
+  body#tinymce.wp-editor .pure-u-1-2,
+  body#tinymce.wp-editor .pure-u-1-3,
+  body#tinymce.wp-editor .pure-u-2-3,
+  body#tinymce.wp-editor .pure-u-1-4,
+  body#tinymce.wp-editor .pure-u-3-4,
+  body#tinymce.wp-editor .pure-u-1-5,
+  body#tinymce.wp-editor .pure-u-2-5,
+  body#tinymce.wp-editor .pure-u-3-5,
+  body#tinymce.wp-editor .pure-u-4-5,
+  body#tinymce.wp-editor .pure-u-5-5,
+  body#tinymce.wp-editor .pure-u-1-6,
+  body#tinymce.wp-editor .pure-u-5-6,
+  body#tinymce.wp-editor .pure-u-1-8,
+  body#tinymce.wp-editor .pure-u-3-8,
+  body#tinymce.wp-editor .pure-u-5-8,
+  body#tinymce.wp-editor .pure-u-7-8,
+  body#tinymce.wp-editor .pure-u-1-12,
+  body#tinymce.wp-editor .pure-u-5-12,
+  body#tinymce.wp-editor .pure-u-7-12,
+  body#tinymce.wp-editor .pure-u-11-12,
+  body#tinymce.wp-editor .pure-u-1-24,
+  body#tinymce.wp-editor .pure-u-2-24,
+  body#tinymce.wp-editor .pure-u-3-24,
+  body#tinymce.wp-editor .pure-u-4-24,
+  body#tinymce.wp-editor .pure-u-5-24,
+  body#tinymce.wp-editor .pure-u-6-24,
+  body#tinymce.wp-editor .pure-u-7-24,
+  body#tinymce.wp-editor .pure-u-8-24,
+  body#tinymce.wp-editor .pure-u-9-24,
+  body#tinymce.wp-editor .pure-u-10-24,
+  body#tinymce.wp-editor .pure-u-11-24,
+  body#tinymce.wp-editor .pure-u-12-24,
+  body#tinymce.wp-editor .pure-u-13-24,
+  body#tinymce.wp-editor .pure-u-14-24,
+  body#tinymce.wp-editor .pure-u-15-24,
+  body#tinymce.wp-editor .pure-u-16-24,
+  body#tinymce.wp-editor .pure-u-17-24,
+  body#tinymce.wp-editor .pure-u-18-24,
+  body#tinymce.wp-editor .pure-u-19-24,
+  body#tinymce.wp-editor .pure-u-20-24,
+  body#tinymce.wp-editor .pure-u-21-24,
+  body#tinymce.wp-editor .pure-u-22-24,
+  body#tinymce.wp-editor .pure-u-23-24,
+  body#tinymce.wp-editor .pure-u-24-24 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto; }
+  body#tinymce.wp-editor .pure-u-1-24 {
+    width: 4.1667%;
+    *width: 4.1357%; }
+  body#tinymce.wp-editor .pure-u-1-12,
+  body#tinymce.wp-editor .pure-u-2-24 {
+    width: 8.3333%;
+    *width: 8.3023%; }
+  body#tinymce.wp-editor .pure-u-1-8,
+  body#tinymce.wp-editor .pure-u-3-24 {
+    width: 12.5000%;
+    *width: 12.4690%; }
+  body#tinymce.wp-editor .pure-u-1-6,
+  body#tinymce.wp-editor .pure-u-4-24 {
+    width: 16.6667%;
+    *width: 16.6357%; }
+  body#tinymce.wp-editor .pure-u-1-5 {
+    width: 20%;
+    *width: 19.9690%; }
+  body#tinymce.wp-editor .pure-u-5-24 {
+    width: 20.8333%;
+    *width: 20.8023%; }
+  body#tinymce.wp-editor .pure-u-1-4,
+  body#tinymce.wp-editor .pure-u-6-24 {
+    width: 25%;
+    *width: 24.9690%; }
+  body#tinymce.wp-editor .pure-u-7-24 {
+    width: 29.1667%;
+    *width: 29.1357%; }
+  body#tinymce.wp-editor .pure-u-1-3,
+  body#tinymce.wp-editor .pure-u-8-24 {
+    width: 33.3333%;
+    *width: 33.3023%; }
+  body#tinymce.wp-editor .pure-u-3-8,
+  body#tinymce.wp-editor .pure-u-9-24 {
+    width: 37.5000%;
+    *width: 37.4690%; }
+  body#tinymce.wp-editor .pure-u-2-5 {
+    width: 40%;
+    *width: 39.9690%; }
+  body#tinymce.wp-editor .pure-u-5-12,
+  body#tinymce.wp-editor .pure-u-10-24 {
+    width: 41.6667%;
+    *width: 41.6357%; }
+  body#tinymce.wp-editor .pure-u-11-24 {
+    width: 45.8333%;
+    *width: 45.8023%; }
+  body#tinymce.wp-editor .pure-u-1-2,
+  body#tinymce.wp-editor .pure-u-12-24 {
+    width: 50%;
+    *width: 49.9690%; }
+  body#tinymce.wp-editor .pure-u-13-24 {
+    width: 54.1667%;
+    *width: 54.1357%; }
+  body#tinymce.wp-editor .pure-u-7-12,
+  body#tinymce.wp-editor .pure-u-14-24 {
+    width: 58.3333%;
+    *width: 58.3023%; }
+  body#tinymce.wp-editor .pure-u-3-5 {
+    width: 60%;
+    *width: 59.9690%; }
+  body#tinymce.wp-editor .pure-u-5-8,
+  body#tinymce.wp-editor .pure-u-15-24 {
+    width: 62.5000%;
+    *width: 62.4690%; }
+  body#tinymce.wp-editor .pure-u-2-3,
+  body#tinymce.wp-editor .pure-u-16-24 {
+    width: 66.6667%;
+    *width: 66.6357%; }
+  body#tinymce.wp-editor .pure-u-17-24 {
+    width: 70.8333%;
+    *width: 70.8023%; }
+  body#tinymce.wp-editor .pure-u-3-4,
+  body#tinymce.wp-editor .pure-u-18-24 {
+    width: 75%;
+    *width: 74.9690%; }
+  body#tinymce.wp-editor .pure-u-19-24 {
+    width: 79.1667%;
+    *width: 79.1357%; }
+  body#tinymce.wp-editor .pure-u-4-5 {
+    width: 80%;
+    *width: 79.9690%; }
+  body#tinymce.wp-editor .pure-u-5-6,
+  body#tinymce.wp-editor .pure-u-20-24 {
+    width: 83.3333%;
+    *width: 83.3023%; }
+  body#tinymce.wp-editor .pure-u-7-8,
+  body#tinymce.wp-editor .pure-u-21-24 {
+    width: 87.5000%;
+    *width: 87.4690%; }
+  body#tinymce.wp-editor .pure-u-11-12,
+  body#tinymce.wp-editor .pure-u-22-24 {
+    width: 91.6667%;
+    *width: 91.6357%; }
+  body#tinymce.wp-editor .pure-u-23-24 {
+    width: 95.8333%;
+    *width: 95.8023%; }
+  body#tinymce.wp-editor .pure-u-1,
+  body#tinymce.wp-editor .pure-u-1-1,
+  body#tinymce.wp-editor .pure-u-5-5,
+  body#tinymce.wp-editor .pure-u-24-24 {
+    width: 100%; }
+  body#tinymce.wp-editor .pure-button {
+    /* Structure */
+    display: inline-block;
+    *display: inline;
+    /*IE 6/7*/
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  body#tinymce.wp-editor .pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  body#tinymce.wp-editor .pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    *font-size: 90%;
+    /*IE 6/7 - To reduce IE's oversized button text*/
+    *overflow: visible;
+    /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+    padding: 0.5em 1em;
+    color: #444;
+    /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.8);
+    /* rgba supported */
+    *color: #444;
+    /* IE 6 & 7 */
+    border: 1px solid #999;
+    /*IE 6/7/8*/
+    border: none transparent;
+    /*IE9 + everything else*/
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px; }
+  body#tinymce.wp-editor .pure-button-hover,
+  body#tinymce.wp-editor .pure-button:hover,
+  body#tinymce.wp-editor .pure-button:focus {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
+    background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1)); }
+  body#tinymce.wp-editor .pure-button:focus {
+    outline: 0; }
+  body#tinymce.wp-editor .pure-button-active,
+  body#tinymce.wp-editor .pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset; }
+  body#tinymce.wp-editor .pure-button[disabled],
+  body#tinymce.wp-editor .pure-button-disabled,
+  body#tinymce.wp-editor .pure-button-disabled:hover,
+  body#tinymce.wp-editor .pure-button-disabled:focus,
+  body#tinymce.wp-editor .pure-button-disabled:active {
+    border: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none; }
+  body#tinymce.wp-editor .pure-button-hidden {
+    display: none; }
+  body#tinymce.wp-editor .pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  body#tinymce.wp-editor .pure-button-primary,
+  body#tinymce.wp-editor .pure-button-selected,
+  body#tinymce.wp-editor a.pure-button-primary,
+  body#tinymce.wp-editor a.pure-button-selected {
+    background-color: #0078e7;
+    color: #fff; }
+  body#tinymce.wp-editor .pure-form input[type="text"],
+  body#tinymce.wp-editor .pure-form input[type="password"],
+  body#tinymce.wp-editor .pure-form input[type="email"],
+  body#tinymce.wp-editor .pure-form input[type="url"],
+  body#tinymce.wp-editor .pure-form input[type="date"],
+  body#tinymce.wp-editor .pure-form input[type="month"],
+  body#tinymce.wp-editor .pure-form input[type="time"],
+  body#tinymce.wp-editor .pure-form input[type="datetime"],
+  body#tinymce.wp-editor .pure-form input[type="datetime-local"],
+  body#tinymce.wp-editor .pure-form input[type="week"],
+  body#tinymce.wp-editor .pure-form input[type="number"],
+  body#tinymce.wp-editor .pure-form input[type="search"],
+  body#tinymce.wp-editor .pure-form input[type="tel"],
+  body#tinymce.wp-editor .pure-form input[type="color"],
+  body#tinymce.wp-editor .pure-form select,
+  body#tinymce.wp-editor .pure-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body#tinymce.wp-editor .pure-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body#tinymce.wp-editor .pure-form input[type="color"] {
+    padding: 0.2em 0.5em; }
+  body#tinymce.wp-editor .pure-form input[type="text"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="password"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="email"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="url"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="date"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="month"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="time"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="datetime"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="datetime-local"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="week"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="number"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="search"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="tel"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="color"]:focus,
+  body#tinymce.wp-editor .pure-form select:focus,
+  body#tinymce.wp-editor .pure-form textarea:focus {
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+    border-color: #129FEA; }
+  body#tinymce.wp-editor .pure-form input:not([type]):focus {
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+    border-color: #129FEA; }
+  body#tinymce.wp-editor .pure-form input[type="file"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="radio"]:focus,
+  body#tinymce.wp-editor .pure-form input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 1px auto #129FEA; }
+  body#tinymce.wp-editor .pure-form .pure-checkbox,
+  body#tinymce.wp-editor .pure-form .pure-radio {
+    margin: 0.5em 0;
+    display: block; }
+  body#tinymce.wp-editor .pure-form input[type="text"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="password"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="email"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="url"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="date"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="month"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="time"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="datetime"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="datetime-local"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="week"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="number"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="search"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="tel"][disabled],
+  body#tinymce.wp-editor .pure-form input[type="color"][disabled],
+  body#tinymce.wp-editor .pure-form select[disabled],
+  body#tinymce.wp-editor .pure-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3; }
+  body#tinymce.wp-editor .pure-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3; }
+  body#tinymce.wp-editor .pure-form input[readonly],
+  body#tinymce.wp-editor .pure-form select[readonly],
+  body#tinymce.wp-editor .pure-form textarea[readonly] {
+    background: #eee;
+    /* menu hover bg color */
+    color: #777;
+    /* menu text color */
+    border-color: #ccc; }
+  body#tinymce.wp-editor .pure-form input:focus:invalid,
+  body#tinymce.wp-editor .pure-form textarea:focus:invalid,
+  body#tinymce.wp-editor .pure-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b; }
+  body#tinymce.wp-editor .pure-form input:focus:invalid:focus,
+  body#tinymce.wp-editor .pure-form textarea:focus:invalid:focus,
+  body#tinymce.wp-editor .pure-form select:focus:invalid:focus {
+    border-color: #e9322d; }
+  body#tinymce.wp-editor .pure-form input[type="file"]:focus:invalid:focus,
+  body#tinymce.wp-editor .pure-form input[type="radio"]:focus:invalid:focus,
+  body#tinymce.wp-editor .pure-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d; }
+  body#tinymce.wp-editor .pure-form select {
+    border: 1px solid #ccc;
+    background-color: white; }
+  body#tinymce.wp-editor .pure-form select[multiple] {
+    height: auto; }
+  body#tinymce.wp-editor .pure-form label {
+    margin: 0.5em 0 0.2em; }
+  body#tinymce.wp-editor .pure-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0; }
+  body#tinymce.wp-editor .pure-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5; }
+  body#tinymce.wp-editor .pure-form-stacked input[type="text"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="password"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="email"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="url"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="date"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="month"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="time"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="datetime"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="datetime-local"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="week"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="number"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="search"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="tel"],
+  body#tinymce.wp-editor .pure-form-stacked input[type="color"],
+  body#tinymce.wp-editor .pure-form-stacked select,
+  body#tinymce.wp-editor .pure-form-stacked label,
+  body#tinymce.wp-editor .pure-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0; }
+  body#tinymce.wp-editor .pure-form-stacked input:not([type]) {
+    display: block;
+    margin: 0.25em 0; }
+  body#tinymce.wp-editor .pure-form-aligned input,
+  body#tinymce.wp-editor .pure-form-aligned textarea,
+  body#tinymce.wp-editor .pure-form-aligned select,
+  body#tinymce.wp-editor .pure-form-aligned .pure-help-inline,
+  body#tinymce.wp-editor .pure-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle; }
+  body#tinymce.wp-editor .pure-form-aligned textarea {
+    vertical-align: top; }
+  body#tinymce.wp-editor .pure-form-aligned .pure-control-group {
+    margin-bottom: 0.5em; }
+  body#tinymce.wp-editor .pure-form-aligned .pure-control-group label {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10em;
+    margin: 0 1em 0 0; }
+  body#tinymce.wp-editor .pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 10em; }
+  body#tinymce.wp-editor .pure-form input.pure-input-rounded,
+  body#tinymce.wp-editor .pure-form .pure-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em; }
+  body#tinymce.wp-editor .pure-form .pure-group fieldset {
+    margin-bottom: 10px; }
+  body#tinymce.wp-editor .pure-form .pure-group input {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    position: relative;
+    top: -1px; }
+  body#tinymce.wp-editor .pure-form .pure-group input:focus {
+    z-index: 2; }
+  body#tinymce.wp-editor .pure-form .pure-group input:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0; }
+  body#tinymce.wp-editor .pure-form .pure-group input:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px; }
+  body#tinymce.wp-editor .pure-form .pure-group button {
+    margin: 0.35em 0; }
+  body#tinymce.wp-editor .pure-form .pure-input-1 {
+    width: 100%; }
+  body#tinymce.wp-editor .pure-form .pure-input-2-3 {
+    width: 66%; }
+  body#tinymce.wp-editor .pure-form .pure-input-1-2 {
+    width: 50%; }
+  body#tinymce.wp-editor .pure-form .pure-input-1-3 {
+    width: 33%; }
+  body#tinymce.wp-editor .pure-form .pure-input-1-4 {
+    width: 25%; }
+  body#tinymce.wp-editor .pure-form .pure-help-inline,
+  body#tinymce.wp-editor .pure-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875em; }
+  body#tinymce.wp-editor .pure-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875em; }
+  @media only screen and (max-width: 480px) {
+    body#tinymce.wp-editor {
+      /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */ }
+      body#tinymce.wp-editor .pure-form button[type="submit"] {
+        margin: 0.7em 0 0; }
+      body#tinymce.wp-editor .pure-form input:not([type]),
+      body#tinymce.wp-editor .pure-form input[type="text"],
+      body#tinymce.wp-editor .pure-form input[type="password"],
+      body#tinymce.wp-editor .pure-form input[type="email"],
+      body#tinymce.wp-editor .pure-form input[type="url"],
+      body#tinymce.wp-editor .pure-form input[type="date"],
+      body#tinymce.wp-editor .pure-form input[type="month"],
+      body#tinymce.wp-editor .pure-form input[type="time"],
+      body#tinymce.wp-editor .pure-form input[type="datetime"],
+      body#tinymce.wp-editor .pure-form input[type="datetime-local"],
+      body#tinymce.wp-editor .pure-form input[type="week"],
+      body#tinymce.wp-editor .pure-form input[type="number"],
+      body#tinymce.wp-editor .pure-form input[type="search"],
+      body#tinymce.wp-editor .pure-form input[type="tel"],
+      body#tinymce.wp-editor .pure-form input[type="color"],
+      body#tinymce.wp-editor .pure-form label {
+        margin-bottom: 0.3em;
+        display: block; }
+      body#tinymce.wp-editor .pure-group input:not([type]),
+      body#tinymce.wp-editor .pure-group input[type="text"],
+      body#tinymce.wp-editor .pure-group input[type="password"],
+      body#tinymce.wp-editor .pure-group input[type="email"],
+      body#tinymce.wp-editor .pure-group input[type="url"],
+      body#tinymce.wp-editor .pure-group input[type="date"],
+      body#tinymce.wp-editor .pure-group input[type="month"],
+      body#tinymce.wp-editor .pure-group input[type="time"],
+      body#tinymce.wp-editor .pure-group input[type="datetime"],
+      body#tinymce.wp-editor .pure-group input[type="datetime-local"],
+      body#tinymce.wp-editor .pure-group input[type="week"],
+      body#tinymce.wp-editor .pure-group input[type="number"],
+      body#tinymce.wp-editor .pure-group input[type="search"],
+      body#tinymce.wp-editor .pure-group input[type="tel"],
+      body#tinymce.wp-editor .pure-group input[type="color"] {
+        margin-bottom: 0; }
+      body#tinymce.wp-editor .pure-form-aligned .pure-control-group label {
+        margin-bottom: 0.3em;
+        text-align: left;
+        display: block;
+        width: 100%; }
+      body#tinymce.wp-editor .pure-form-aligned .pure-controls {
+        margin: 1.5em 0 0 0; }
+      body#tinymce.wp-editor .pure-form .pure-help-inline,
+      body#tinymce.wp-editor .pure-form-message-inline,
+      body#tinymce.wp-editor .pure-form-message {
+        display: block;
+        font-size: 0.75em;
+        /* Increased bottom padding to make it group with its related input element. */
+        padding: 0.2em 0 0.8em; } }
+  body#tinymce.wp-editor .pure-menu ul {
+    position: absolute;
+    visibility: hidden; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-open {
+    visibility: visible;
+    z-index: 2;
+    width: 100%; }
+  body#tinymce.wp-editor .pure-menu ul {
+    left: -10000px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: -10000px;
+    z-index: 1; }
+  body#tinymce.wp-editor .pure-menu > ul {
+    position: relative; }
+  body#tinymce.wp-editor .pure-menu-open > ul {
+    left: 0;
+    top: 0;
+    visibility: visible; }
+  body#tinymce.wp-editor .pure-menu-open > ul:focus {
+    outline: 0; }
+  body#tinymce.wp-editor .pure-menu li {
+    position: relative; }
+  body#tinymce.wp-editor .pure-menu a,
+  body#tinymce.wp-editor .pure-menu .pure-menu-heading {
+    display: block;
+    color: inherit;
+    line-height: 1.5em;
+    padding: 5px 20px;
+    text-decoration: none;
+    white-space: nowrap; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-horizontal > .pure-menu-heading {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin: 0;
+    vertical-align: middle; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-horizontal > ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle; }
+  body#tinymce.wp-editor .pure-menu li a {
+    padding: 5px 20px; }
+  body#tinymce.wp-editor .pure-menu-can-have-children > .pure-menu-label:after {
+    content: '\25B8';
+    float: right;
+    /* These specific fonts have the Unicode char we need. */
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
+    margin-right: -20px;
+    margin-top: -1px; }
+  body#tinymce.wp-editor .pure-menu-can-have-children > .pure-menu-label {
+    padding-right: 30px; }
+  body#tinymce.wp-editor .pure-menu-separator {
+    background-color: #dfdfdf;
+    display: block;
+    height: 1px;
+    font-size: 0;
+    margin: 7px 2px;
+    overflow: hidden; }
+  body#tinymce.wp-editor .pure-menu-hidden {
+    display: none; }
+  body#tinymce.wp-editor .pure-menu-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; }
+  body#tinymce.wp-editor .pure-menu-horizontal li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle; }
+  body#tinymce.wp-editor .pure-menu-horizontal li li {
+    display: block; }
+  body#tinymce.wp-editor .pure-menu-horizontal > .pure-menu-children > .pure-menu-can-have-children > .pure-menu-label:after {
+    content: "\25BE"; }
+  body#tinymce.wp-editor .pure-menu-horizontal > .pure-menu-children > .pure-menu-can-have-children > .pure-menu-label {
+    padding-right: 30px; }
+  body#tinymce.wp-editor .pure-menu-horizontal li.pure-menu-separator {
+    height: 50%;
+    width: 1px;
+    margin: 0 7px; }
+  body#tinymce.wp-editor .pure-menu-horizontal li li.pure-menu-separator {
+    height: 1px;
+    width: auto;
+    margin: 7px 2px; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-open,
+  body#tinymce.wp-editor .pure-menu.pure-menu-horizontal li .pure-menu-children {
+    background: #fff;
+    /* Old browsers */
+    border: 1px solid #b7b7b7; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-horizontal,
+  body#tinymce.wp-editor .pure-menu.pure-menu-horizontal .pure-menu-heading {
+    border: none; }
+  body#tinymce.wp-editor .pure-menu a {
+    border: 1px solid transparent;
+    border-left: none;
+    border-right: none; }
+  body#tinymce.wp-editor .pure-menu a,
+  body#tinymce.wp-editor .pure-menu .pure-menu-can-have-children > li:after {
+    color: #777; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-can-have-children > li:hover:after {
+    color: #fff; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-open {
+    background: #dedede; }
+  body#tinymce.wp-editor .pure-menu li a:hover,
+  body#tinymce.wp-editor .pure-menu li a:focus {
+    background: #eee; }
+  body#tinymce.wp-editor .pure-menu li.pure-menu-disabled a:hover,
+  body#tinymce.wp-editor .pure-menu li.pure-menu-disabled a:focus {
+    background: #fff;
+    color: #bfbfbf; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-disabled > a {
+    background-image: none;
+    border-color: transparent;
+    cursor: default; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-disabled > a,
+  body#tinymce.wp-editor .pure-menu .pure-menu-can-have-children.pure-menu-disabled > a:after {
+    color: #bfbfbf; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-heading {
+    color: #565d64;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-top: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dfdfdf; }
+  body#tinymce.wp-editor .pure-menu .pure-menu-selected a {
+    color: #000; }
+  body#tinymce.wp-editor .pure-menu.pure-menu-open.pure-menu-fixed {
+    border: none;
+    border-bottom: 1px solid #b7b7b7; }
+  body#tinymce.wp-editor .pure-paginator {
+    /* `pure-g` Grid styles */
+    letter-spacing: -0.31em;
+    /* Webkit: collapse white-space between units */
+    *letter-spacing: normal;
+    /* reset IE < 8 */
+    *word-spacing: -0.43em;
+    /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed;
+    /* Webkit: fixes text-rendering: optimizeLegibility */
+    /* `pure-paginator` Specific styles */
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  body#tinymce.wp-editor .opera-only :-o-prefocus,
+  body#tinymce.wp-editor .pure-paginator {
+    word-spacing: -0.43em; }
+  body#tinymce.wp-editor .pure-paginator li {
+    display: inline-block;
+    *display: inline;
+    /* IE < 8: fake inline-block */
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto; }
+  body#tinymce.wp-editor .pure-paginator .pure-button {
+    border-radius: 0;
+    padding: 0.8em 1.4em;
+    vertical-align: top;
+    height: 1.1em; }
+  body#tinymce.wp-editor .pure-paginator .pure-button:focus,
+  body#tinymce.wp-editor .pure-paginator .pure-button:active {
+    outline-style: none; }
+  body#tinymce.wp-editor .pure-paginator .prev,
+  body#tinymce.wp-editor .pure-paginator .next {
+    color: #C0C1C3;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.45); }
+  body#tinymce.wp-editor .pure-paginator .prev {
+    border-radius: 2px 0 0 2px; }
+  body#tinymce.wp-editor .pure-paginator .next {
+    border-radius: 0 2px 2px 0; }
+  @media (max-width: 480px) {
+    body#tinymce.wp-editor .pure-menu-horizontal {
+      width: 100%; }
+    body#tinymce.wp-editor .pure-menu-children li {
+      display: block;
+      border-bottom: 1px solid black; } }
+  body#tinymce.wp-editor .pure-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb; }
+  body#tinymce.wp-editor .pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center; }
+  body#tinymce.wp-editor .pure-table td,
+  body#tinymce.wp-editor .pure-table th {
+    border-left: 1px solid #cbcbcb;
+    /*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    /*to make ths where the title is really long work*/
+    padding: 0.5em 1em;
+    /* cell padding */ }
+  body#tinymce.wp-editor .pure-table td:first-child,
+  body#tinymce.wp-editor .pure-table th:first-child {
+    border-left-width: 0; }
+  body#tinymce.wp-editor .pure-table thead {
+    background: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom; }
+  body#tinymce.wp-editor .pure-table td {
+    background-color: transparent; }
+  body#tinymce.wp-editor .pure-table-odd td {
+    background-color: #f2f2f2; }
+  body#tinymce.wp-editor .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2; }
+  body#tinymce.wp-editor .pure-table-bordered td {
+    border-bottom: 1px solid #cbcbcb; }
+  body#tinymce.wp-editor .pure-table-bordered tbody > tr:last-child td,
+  body#tinymce.wp-editor .pure-table-horizontal tbody > tr:last-child td {
+    border-bottom-width: 0; }
+  body#tinymce.wp-editor .pure-table-horizontal td,
+  body#tinymce.wp-editor .pure-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #cbcbcb; }
+  body#tinymce.wp-editor .pure-table-horizontal tbody > tr:last-child td {
+    border-bottom-width: 0; }
+  body#tinymce.wp-editor p {
+    -ms-word-break: break-all;
+    -ms-word-wrap: break-all;
+    word-break: break-word;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    -webkit-hyphenate-before: 2;
+    -webkit-hyphenate-after: 3;
+    hyphenate-lines: 3;
+    -webkit-font-feature-settings: "liga", "dlig";
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig"; }
+  body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
+    color: #CC0000;
+    /* on hover */
+    /* on click */ }
+    body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {
+      color: #9e0000; }
+    body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited:link {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
+  body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
+    text-rendering: optimizelegibility;
+    font-weight: 500; }
+    body#tinymce.wp-editor h1 a, body#tinymce.wp-editor .h1 a, body#tinymce.wp-editor h2 a, body#tinymce.wp-editor .h2 a, body#tinymce.wp-editor h3 a, body#tinymce.wp-editor .h3 a, body#tinymce.wp-editor h4 a, body#tinymce.wp-editor .h4 a, body#tinymce.wp-editor h5 a, body#tinymce.wp-editor .h5 a {
+      text-decoration: none; }
+  body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1 {
+    font-size: 2.5em;
+    line-height: 1.333em; }
+  body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2 {
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin-bottom: 0.375em; }
+  body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3 {
+    font-size: 1.125em; }
+  body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
+    font-size: 1.1em;
+    font-weight: 700; }
+  body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
+    font-size: 0.846em;
+    line-height: 2.09em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  body#tinymce.wp-editor p {
+    margin: 0 0 1.5em; }
+  body#tinymce.wp-editor table {
+    width: 100%;
+    border: 1px solid #DDD;
+    margin-bottom: 1.5em; }
+    body#tinymce.wp-editor table caption {
+      margin: 0 0 7px;
+      font-size: 0.75em;
+      color: #AAA;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+  body#tinymce.wp-editor tr {
+    border-bottom: 1px solid #DDD; }
+    body#tinymce.wp-editor tr:nth-child(even) {
+      background-color: #f8f9fa; }
+  body#tinymce.wp-editor td {
+    padding: 7px;
+    border-right: 1px solid #DDD; }
+    body#tinymce.wp-editor td:last-child {
+      border-right: 0; }
+  body#tinymce.wp-editor th {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #DDD;
+    border-right: 1px solid #DDD; }
+    body#tinymce.wp-editor th:last-child {
+      border-right: 0; }
+  body#tinymce.wp-editor blockquote {
+    margin: 0 0 1.5em 0.75em;
+    padding: 0 0 0 0.75em;
+    border-left: 3px solid #2980b9;
+    font-style: italic;
+    color: #AAA; }
+  body#tinymce.wp-editor dd {
+    margin-left: 0;
+    font-size: 0.9em;
+    color: #787878;
+    margin-bottom: 1.5em; }
+  body#tinymce.wp-editor img {
+    margin: 0 0 1.5em 0;
+    max-width: 100%;
+    height: auto; }
+  body#tinymce.wp-editor .size-auto,
+  body#tinymce.wp-editor .size-full,
+  body#tinymce.wp-editor .size-large,
+  body#tinymce.wp-editor .size-medium,
+  body#tinymce.wp-editor .size-thumbnail {
+    max-width: 100%;
+    height: auto; }
+  body#tinymce.wp-editor pre {
+    background: #111;
+    color: #f8f9fa;
+    font-size: 0.9em;
+    padding: 1.5em;
+    margin: 0 0 1.5em;
+    border-radius: 3px; }
+  @media only screen and (min-width: 481px) {
+    body#tinymce.wp-editor {
+      /* at this larger size, we can start to align images */ }
+      body#tinymce.wp-editor .alignleft, body#tinymce.wp-editor img.alignleft {
+        margin-right: 1.5em;
+        display: inline;
+        float: left; }
+      body#tinymce.wp-editor .alignright, body#tinymce.wp-editor img.alignright {
+        margin-left: 1.5em;
+        display: inline;
+        float: right; }
+      body#tinymce.wp-editor .aligncenter, body#tinymce.wp-editor img.aligncenter {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        clear: both; } }
