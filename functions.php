@@ -195,7 +195,7 @@ function tisse_la_toile_posts_request() {
 }
 
 
-function tisse_la_toile_tag_request() {
+function tisse_la_toile_tag_request_1() {
 
 	// get all posts and tags as json
 	$return = array();
@@ -232,6 +232,41 @@ function tisse_la_toile_tag_request() {
 		$return[]= array("name"=>$tag->name, "type"=>"tag", "count"=> $tag->count, "children"=>$children);
 	}
 	$return =array("name" => "Histoire du Web", "children"=>$return);
+	wp_reset_query();
+	echo json_encode($return);
+	die();
+}
+
+
+function tisse_la_toile_tag_request() {
+
+	// get all posts and tags as json
+	$return = array();
+	$tags = wp_get_all_tags();
+
+	foreach ($tags as $tag){
+
+
+		$return[]= array("source"=>"Histoire du Web", "target"=>$tag->name, "type"=>"tag");
+
+		$args=array(
+			'tag' => $tag->name,
+			'showposts'=>500,
+			'ignore_sticky_posts'=>1
+		);
+		$my_query = new WP_Query($args);
+
+		if( $my_query->have_posts() ) {
+
+			
+			
+			while ($my_query->have_posts()) : $my_query->the_post();
+			
+				$return[]=array("source"=> $tag->name, "target"=> get_the_title(), "type"=>"article", 'url'=> get_permalink());
+
+			endwhile;
+		}
+	}
 	wp_reset_query();
 	echo json_encode($return);
 	die();

@@ -1938,14 +1938,33 @@ POSTS & CONTENT STYLES
 .byline {
   color: #AAA; }
 
-.glossary-letter {
-  padding: 5px 10px;
-  font-size: 2rem;
-  line-height: 2rem;
-  text-align: center;
-  display: inline-block;
-  background: #DDD;
-  color: #111; }
+dl.items-list {
+  padding-left: 100px;
+  vertical-align: top;
+  clear: both; }
+  dl.items-list .glossary-letter {
+    margin-left: -100px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    display: block;
+    background: #111;
+    color: #DDD;
+    clear: left;
+    width: 5%; }
+  dl.items-list dt, dl.items-list dd {
+    display: inline-block;
+    vertical-align: top; }
+  dl.items-list dt {
+    width: 25%;
+    color: #AAA; }
+  dl.items-list dd {
+    width: 70%;
+    clear: right;
+    padding-bottom: 50px; }
+    dl.items-list dd a {
+      color: #111; }
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -2026,24 +2045,50 @@ DATAVIZ
 #dataviz-container {
   margin: auto;
   border: 1px solid #AAA;
-  width: 960px;
-  height: 500px; }
-
-.node {
-  cursor: pointer;
-  stroke: #AAA;
-  stroke-width: 1.5px; }
-
-.link {
-  fill: none;
-  stroke: #AAA;
-  stroke-width: 1.5px; }
+  /*
+  	.node {
+  	  cursor: pointer;
+  	  stroke: $meta-gray;
+  	  stroke-width: 1.5px;
+  	  fill: $gray
+  	}
+  */ }
+  #dataviz-container .tag {
+    fill: #DDD;
+    stroke: #AAA;
+    stroke-width: 1.5px; }
+  #dataviz-container .node.article {
+    cursor: pointer;
+    fill: #AAA; }
+  #dataviz-container .root {
+    stroke: #AAA;
+    fill: #DDD; }
+  #dataviz-container .link {
+    fill: none;
+    stroke: #AAA;
+    stroke-width: 1px; }
+  #dataviz-container text {
+    font: 12px sans-serif;
+    pointer-events: none;
+    stroke-width: 0px;
+    fill: #111; }
+  #dataviz-container .root {
+    fill: #fff; }
+  #dataviz-container .root text {
+    fill: #DDD;
+    stroke: #111;
+    stroke: #fff;
+    stroke-width: .5px;
+    text-transform: uppercase;
+    z-index: 1000; }
+  #dataviz-container .tag text {
+    fill: #AAA; }
 
 div.tooltip {
   position: absolute;
   text-align: center;
   width: 120px;
-  height: 20px;
+  height: 28px;
   padding: 2px;
   font: 12px sans-serif;
   background: white;

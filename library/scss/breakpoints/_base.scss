@@ -421,15 +421,37 @@ POSTS & CONTENT STYLES
 	color: $meta-gray;
 }
 
-.glossary-letter{
-padding:5px 10px;
-font-size: rem-calc(32);
-line-height: rem-calc(32);
-text-align: center;
-display: inline-block;
-background:$gray;
-color:$black;
+
+dl.items-list{
+	padding-left:100px;
+	vertical-align: top;
+	clear:both;
+	.glossary-letter{
+		margin-left:-100px;
+		
+		padding:5px 10px;
+		font-size: rem-calc(32);
+		line-height: rem-calc(32);
+		text-align: center;
+		display: block;
+		background:$black;
+		color:$gray;
+		clear:left;
+		width:5%;
+	}
+	dt,dd{
+		display:inline-block;
+		vertical-align: top;
+	}
+	dt{width:25%; color:$meta-gray;}
+	dd{width:70%;clear:right;
+		padding-bottom:50px;
+		a{color:$black;}
+	}
 }
+
+
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
@@ -538,25 +560,53 @@ DATAVIZ
 #dataviz-container {
 	margin:auto;
 	border: 1px solid $meta-gray;
-	width: 960px;
-	height:500px;
-  }
-.node {
-  cursor: pointer;
-  stroke: $meta-gray;
-  stroke-width: 1.5px;
+
+/*
+	.node {
+	  cursor: pointer;
+	  stroke: $meta-gray;
+	  stroke-width: 1.5px;
+	  fill: $gray
+	}
+*/
+	.tag{
+		fill: $gray;   
+		stroke: $meta-gray;
+		stroke-width: 1.5px;
+	}
+	.node.article{
+		cursor: pointer;
+		fill: $meta-gray;
+	}
+	.root{
+		stroke:$meta-gray;
+		fill: $gray;
+	}
+
+	.link {
+	  fill: none;
+	  stroke: $meta-gray;
+	  stroke-width: 1px;
+	}
+
+	text {
+	  font: 12px sans-serif;
+	  pointer-events: none;
+	  stroke-width: 0px;
+	  fill: $black;
+	}
+	.root{fill:$white;}
+	.root text{fill:$gray;stroke:$black;stroke:$white;stroke-width: .5px;text-transform: uppercase;z-index:1000;
+	
+	}
+	.tag text{fill: $meta-gray;}	
 }
 
-.link {
-  fill: none;
-  stroke: $meta-gray;
-  stroke-width: 1.5px;
-}
 div.tooltip {   
   position: absolute;           
   text-align: center;           
   width: 120px;                  
-  height: 20px;                
+  height: 28px;                 
   padding: 2px;             
   font: 12px sans-serif;        
   background: white; 
