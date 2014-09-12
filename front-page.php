@@ -167,18 +167,8 @@ $current_header = '';
 
 foreach ($tags as $tag){
 	
+			
 
-			$tag_link = get_tag_link($tag->term_id);
-			
-			$first_letter = strtoupper(substr($tag->name, 0, 1));
-			
-			if($current_header != $first_letter){
-				$current_header = $first_letter;
-				echo '<span class="glossary-letter">'.$current_header.'</span>';
-				
-			}
-			echo "<dt>{$tag->name}</dt>";
-			echo '<dd><ol>';
 
 			// get all posts by that tag
 
@@ -190,6 +180,17 @@ foreach ($tags as $tag){
     );
     $my_query = new WP_Query($args);
     if( $my_query->have_posts() ) {
+
+			$first_letter = strtoupper(substr($tag->name, 0, 1));
+			
+			if($current_header != $first_letter){
+				$current_header = $first_letter;
+				echo '<span class="glossary-letter">'.$current_header.'</span>';
+				
+			}
+			echo "<dt>{$tag->name}</dt>";
+			echo '<dd><ol>';
+
       while ($my_query->have_posts()) : $my_query->the_post(); ?>
         <li><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
        <?php
