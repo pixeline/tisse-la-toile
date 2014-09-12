@@ -247,7 +247,7 @@ function tisse_la_toile_tag_request() {
 	foreach ($tags as $tag){
 
 
-		$return[]= array("source"=>"Histoire du Web", "target"=>$tag->name, "type"=>"tag");
+		
 
 		$args=array(
 			'tag' => $tag->name,
@@ -258,7 +258,7 @@ function tisse_la_toile_tag_request() {
 
 		if( $my_query->have_posts() ) {
 
-			
+			$return[]= array("source"=>"Histoire du Web", "target"=>$tag->name, "type"=>"tag");
 			
 			while ($my_query->have_posts()) : $my_query->the_post();
 			

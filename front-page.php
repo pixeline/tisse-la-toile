@@ -17,6 +17,7 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 			?>
 		</section>
 	</article>
+
 <?php endwhile; endif ?>
 </div>
 <div id="dataviz-container"></div>
@@ -58,8 +59,8 @@ else{
 	    .nodes(d3.values(nodes))
 	    .links(links)
 	    .size([w, h])
-    .linkDistance(60)
-    .charge(-300)
+		.linkDistance(100)
+    .charge(-900)
 /*
 	    .linkDistance(300)
 		.friction(.01)

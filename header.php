@@ -59,6 +59,7 @@
 	<body <?php body_class(); ?>>
 
 		<div id="container" class="wrap">
+
 			<nav role="navigation" id="main-menu">
 						<?php wp_nav_menu(array(
     					'container' => false,                           // remove nav container
@@ -74,6 +75,9 @@
 						)); ?>
 
 					</nav>
+
+
+
 
 			<header class="header" role="banner">
 				<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
