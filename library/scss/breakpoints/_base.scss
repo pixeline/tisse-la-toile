@@ -95,6 +95,7 @@ h2, .h2 {
 
 h3, .h3 {
 	font-size: 1.125em;
+	font-size: 1.5em;
 }
 
 h4, .h4 {
@@ -427,12 +428,12 @@ POSTS & CONTENT STYLES
 
 
 dl.items-list{
-	padding-left:100px;
+	padding-left:200px;
 	vertical-align: top;
 	clear:both;
 	position: relative;
 	.glossary-letter{
-		margin-left:-100px;
+		margin-left:-200px;
 		margin-top:32px;
 		padding:0px;
 		font-family: $title-font;
@@ -444,6 +445,7 @@ dl.items-list{
 		clear:left;
 		width:5%;
 		font-weight: 100;
+		text-align: left;
 	}
 	dt,dd{
 		display:inline-block;

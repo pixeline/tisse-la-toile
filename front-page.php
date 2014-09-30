@@ -186,6 +186,7 @@ foreach ($tags as $tag){
 			
 			if($current_header != $first_letter){
 				$current_header = $first_letter;
+				$current_header = ($current_header=='I') ? '&nbsp;I&nbsp;':$current_header;
 				echo '<span class="glossary-letter">'.$current_header.'</span>';
 				
 			}

@@ -1505,7 +1505,8 @@ h2, .h2 {
   margin-bottom: 0.375em; }
 
 h3, .h3 {
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  font-size: 1.5em; }
 
 h4, .h4 {
   font-size: 1.1em;
@@ -1694,12 +1695,12 @@ POSTS & CONTENT STYLES
   color: #AAA; }
 
 dl.items-list {
-  padding-left: 100px;
+  padding-left: 200px;
   vertical-align: top;
   clear: both;
   position: relative; }
   dl.items-list .glossary-letter {
-    margin-left: -100px;
+    margin-left: -200px;
     margin-top: 32px;
     padding: 0px;
     font-family: 'DIN Next W01', 'DIN Next W01 Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1710,7 +1711,8 @@ dl.items-list {
     float: left;
     clear: left;
     width: 5%;
-    font-weight: 100; }
+    font-weight: 100;
+    text-align: left; }
   dl.items-list dt, dl.items-list dd {
     display: inline-block;
     vertical-align: top; }
